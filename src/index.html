@@ -12,6 +12,21 @@
 
     <main>
       <!-- Loads the specified .html file -->
+      <div class="container">
+    <form action="" class="header-form" id="task-form">
+        <div class="form-group">
+            <label for="task-title">Назва завдання</label>
+            <input type="text" id="task-title" name="taskName" class="header-form-input" placeholder="Введіть назву завдання">
+        </div>
+        
+        <div class="form-group">
+            <label for="task-description">Текст завдання</label>
+            <input type="text" id="task-description" name="taskDescription" class="header-form-input" placeholder="Введіть опис завдання">
+        </div>
+        
+        <button type="submit" class="header-form-btn">Додати завдання</button>
+    </form>
+</div>
       <load src="./partials/tasks-list.html" />
     </main>
 
