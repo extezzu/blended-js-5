@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vanilla App Template</title>
     <script type="module" crossorigin src="/blended-js-5/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/blended-js-5/assets/index-CkhCT6Zn.css">
+    <link rel="stylesheet" crossorigin href="/blended-js-5/assets/index-BpsS5s7n.css">
   </head>
   <body class="theme-dark">
     <header class="header">
@@ -37,7 +37,7 @@
     </svg>
     <div class="header-right-side-wrapper">
       <button id="themeToggle" class="theme-toggle-button">Change Theme</button>
-      <form class="header-form" id="task-form">
+      <form class="header-form" id="">
         <input
           class="header-form-input"
           type="text"
@@ -59,6 +59,21 @@
 
     <main>
       <!-- Loads the specified .html file -->
+      <div class="container">
+    <form action="" class="header-form" id="task-form">
+        <div class="form-group">
+            <label for="task-title">Назва завдання</label>
+            <input type="text" id="task-title" name="taskName" class="header-form-input" placeholder="Введіть назву завдання">
+        </div>
+        
+        <div class="form-group">
+            <label for="task-description">Текст завдання</label>
+            <input type="text" id="task-description" name="taskDescription" class="header-form-input" placeholder="Введіть опис завдання">
+        </div>
+        
+        <button type="submit" class="header-form-btn">Додати завдання</button>
+    </form>
+</div>
       <section>
   <div class="container">
     <ul class="tasks-list" id="task-list">
